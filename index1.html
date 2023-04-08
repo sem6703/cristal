@@ -5,10 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./font.css" rel="stylesheet">  
-  
-<link rel="icon" type="image/x-icon" href="data:image/gif;base64,R0lGODlhEAAQANUAAACi6JycnDU1NWJiYrS0tBwcHHd3d7W1tUZGRqmpqa/L6CwsLHFxcf///+0cJBAQENfX1xISEhgYGDIyMsrKygAAAEVFRUdHRyQkJPDw8CoqKkBAQPHx8Xp6eqKiomNjY/39/by8vCUlJSMjI87OzvHz9BYWFuHh4R8fHxsbGyEhIba2thQUFGVlZYmJiVNTU6SkpIqKipGRkQoKCl9fX8nJyb29vUxMTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQFewANACwAAAAAEAAQAAAGe0CAcEgsEh8SCaZSEZlSoyIColBkOp+qYtUaDhJVikYBGp2qrhggQNAutIqJVmYTFBaRSWUTiSAqKiwTMzcABloWcBVaNEIHDFUXHFUkKFUvNUMNmw4Om58NMESdnZykDkUNnqUOJaoNqaumr6mzoLBGQ0y5uR4hvMBGQQA7">
-  
-<!-- <link rel="shortcut icon" href="img/my.ico"> -->
+  <link rel="shortcut icon" href="img/my.ico">
+
 <!-- swiper -->
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> 
@@ -16,7 +14,8 @@
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <!-- -->
 
-
+	<meta name="description" content="Маникюр Тольятти. Обучение и повышение квалификации мастеров ногтевого сервиса в Тольятти, рассрочка. Маникюр, педикюр, курсы, рассрочка.">
+	<meta name="keywords" content="обучение ногтевому маникюр маникюру маникюра педикюр рассрочка курсы расрочка кутикула">
 	<title>Обучение маникюру, курсы маникюра в Тольятти. Cristal Studio.</title>
 
   <style> 
@@ -28,12 +27,9 @@
 }
 html,
 body {
-	margin:0px;
-	height:100%;
 	font-family: r4;
 	color: white;	
 }
-
 
 a {color: inherit;}
 
@@ -59,208 +55,112 @@ a {color: inherit;}
   white-space: nowrap;
 }
 /*-------------*/  
-  :root {
+  :root {/*#fa61a4 pink*/
 	--nice: #fa61a4;
   }
   
-  :root {
-	--nice2: #d13689;
-  }  
-  
-  
 
-
-
-
-
-
-
-
-
-/************************1*/
-
-
-h1{	
+h1{
 	margin:0px 0px 0px 77px;
-	padding: 33px 0px 33px 70px;
-		
+	padding-bottom:33px;
+	padding-top:33px;		
 	font-family:r5;
 	font-size:15px;
 	text-align: right;
-	text-indent:23px;	
-	text-shadow: 1px 1px 5px white;	
-	}
-	
-/************hat хедер№1*****************************/	
-.hat{
-	margin: 0 auto;
-	max-width: 1080px; aspect-ratio:9/19;
-	background-image: url(img/hat.jpg);
-	background-position: top center;
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-attachment: local;
+	text-shadow: 1px 1px 5px white;
+	}  
+  
+  
+html,body{height:100%; margin:0px;}	
+/*********form*******/  
+label + input:hover,
+textarea:hover {
+	cursor: pointer;
+	border: 2px solid #828282;
+}
+
+
+
+.sbm {
+	padding: 8px 32px; 
+	background: none;
+	border:2px solid black;
+	font-family: inherit;
+	font-size: 15px;/*24px;*/
+	border-radius: 22px;
+}
+.sbm:hover {
+	background: #ae009e; 
+	color: white;
+}
+
+
+
+
+
+@media screen and (max-width: 767px) {
+ 
+}
+.zebu{
+	padding: 11px 11px 3px 11px; 
+}
+/************************1hd*/
+.tea{ 
+
+}
+.tea_h1{font-family:r5;font-size:21px;
+padding: 0px 0px 15px 70px;
+text-align: left;
+text-indent:23px;
+
+}
+.tea_h2{font-family:r5;font-size:30px;padding: 22px 0px 15px 0px;}
+.tea_h4{font-family:r5;font-size:30px;padding: 22px 0px 15px 0px;}
+
+.hd_h3{padding: 34px 0 19px;font-family:r4;font-size:25px;}
+
+.hd__1f img{width:100%}
+.tea__1fuu{width:100%}
+.hd_app{cursor: pointer;}
+.tea_me{padding-top: 33px;}
+
+.girl {
 	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
 	align-items: center;
-	padding-bottom: 1%;
-	}	
-/******* кнопка запишись *********/	
-.april{/* обертка кнопки запишись */
-	display: block;
-	width: 100vw;
-	max-width:1080px;
-	text-align: center;
+	flex-direction: row;
+	overflow: hidden;
+	padding-bottom: 33px;
+}
+.hd_man {
+	text-align: right; 
+	padding-right: 10px;
+	padding-bottom: 33px;	
 	}
+@media screen and (max-width: 767px) {
+	 .girl {flex-direction:column;} 
+	 .hd_man{padding-left: 0px;padding-right: 0px;}
+	 }
 
-.mart{/* фон кнопки */
-		border: 3px solid black; 
-		border-radius:30px;	
-		background-color: white;			
-		background-image: url(img/whatsapp.svg);				
-		background-position: right 5px center;
-		background-size:auto 51px ;
-		background-repeat: no-repeat;
-		background-attachment: local;
-		box-shadow: -3px 1px 10px rgba(0,0,0,0.5);
-		cursor: pointer;}
-.pain{ /* блок для надписи */
-	margin-right:35px; font-size:24px;
-				padding: 5px 52px 4px 22px;}
-				
-				
-.mart2{border: 3px solid black; border-radius:30px;	
-	background-color: white;			
-	background-image: url(img/whatsapp.svg);				
-	background-position: right 5px center;
-	background-size:auto 51px ;
-	background-repeat: no-repeat;
-	background-attachment: local;
-	box-shadow: -3px 1px 10px rgba(0,0,0,0.5);
-	cursor: pointer;}
-.pain2{margin-right:35px; font-size:24px;
-				padding: 5px 33px 4px 20px;}				
-				
-.app1{ /* напись на кнопке */
-	font-weight:700;
-	line-height:49px;
-	}
-.app2{display: none;font-size:20px;}
-	
-@media screen and (max-width: 440px) {
-.mart,.mart2{background-size:auto 25px ;}
-.pain,.pain2{font-size:13px;}
-.app1{line-height:29px;}
-.app2{font-size:10px;}
-}	
-
-
-
-
-/****** таймер *********/
-#act{
-	margin: 0 auto;
-	padding:3px 10px 2px;
-	display: flex; 
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	width: fit-content;
-	color: black;
-	background-color: none;
-	font-family: sans-serif;
-	}
-
-.ring{
-	margin:1px;
-	width:70px;
-	aspect-ratio:1;
-	border-radius:50%;
-	border: 3px solid black;
-	display:grid;
-	place-items:center;
-	background: transparent;
-	font-family: sans-serif;	
-	}	
-#xhh,#xmm,#xss{
-	line-height:0;
-	font-size:9px;
-	margin-top:-19px;
-	}
-#fanh,#fanm,#fans{
-	display: inline-block;
-	font-size:28px;
-}	
-#tablo{display: flex;}
-#soon{font-family: r4;font-size:31px;
-	font-weight:900;text-align: center;
-	text-transform:uppercase;color: var(--nice2);
-	}
-@media screen and (max-width: 440px) {
-	.ring{width:38px;font-size:17px;border: 2px solid black;}
-	#xhh,#xmm,#xss{
-		font-size:5px;
-		margin-top:-10px;
-		}
-	#fanh,#fanm,#fans{
-		font-size:14px;
-	}	
-	
-	.hat{padding-bottom: 0%;}
-	#soon{font-size:13px}
-}	
-	
-	
-
-/************tea хедер №2******************************/	
-.tea{background: var(--nice);	
-	padding: 44px 0px 33px 0px;
-	color: black;}
-.teapot{overflow:hidden;}
-.tea_hi{text-align: left;text-indent:20px;font-weight:700;}	
-.tea_me{padding-top: 33px;padding-top: 33px;text-align:right;font-weight:700;}
-.tea_h2{font-family:r5;font-size:30px;padding: 22px 0px 15px 0px;font-style:italic;text-align: center;text-shadow: 1px 1px 10px white;}
-.tea_h4{font-family:r5;font-size:30px;padding: 22px 0px 15px 0px;font-size:19px;display: none;}	
-
-.tea_ab p{font-size:18px;}
-
-
-/**************************************************/
-
-
-
-
-
-
-
-
-
-
-
-
-
-/**************** одно кнопочная секция *****/	 
-.that{text-align: center;}
-/*********** футер  ******************/
+/*****************************/
 .ft{
 	padding-bottom: 39px;
 	background: var(--nice);
-	padding: 90px 0px 60px 0px;
 }
 
-.ft_soc li{
+
+/**************************************/
+
+.soc li{
 	margin:2.5px;
 	display: grid;
 	place-items: center;
 	width:58px; height:58px;
 	cursor: pointer;
-	transition: all 0.5s;
 }
-.ft_soc li:hover {transform: scale(1.5);}
-.ft_soc li:hover svg path {fill: purple;}
-.ft_soc li img{display: block}
-.ft_soc{
+
+.soc li:hover svg path {fill: purple;}
+.soc li img{display: block}
+.soc{
 	margin: 0 auto;
 	padding: 20px 0 55px;
 	display: flex;
@@ -270,23 +170,79 @@ h1{
 	list-style-type: none;
 	}	
 	
-.ft__feet{padding: 20px 0 20px;color:black;}
-.ft_feet_1{
+/***************************************/
+.feet{padding: 20px 0 20px;}
+.feet_1{
 	margin:0 auto;
 	text-align: center;
 	max-width: 500px;
 	overflow: hidden
 	}
-	
-.ft_bott{color: black;}	
-.ft_bott li {text-align: center; font-size:0.83em;font-weight: bold;}
-.ft_bott li a{font-size: 1em;l0ine-height: 40px;display: block;padding:16px 0px 0px;}
-	
-/***************************************/
+.feet_2{width:100%}	
+
+
+/************************************/	
+/**********************buttons*/
+.nemo {
+	color: black;
+	font-weight: 700;
+	font-family: r4;
+	font-size: 18px;
+	padding: 4px 24px 4px 24px;
+	border-radius: 30px 30px 30px 30px;
+	background-size: 400%;
+	background-color: transparent;
+	background-position: 0%;
+	transition: background 300ms ease-in-out;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	cursor: pointer;
+}
+.nemo:hover{
+	background-color: transparent;
+	background-position: 100%;
+}
+
+.tea_btn{
+	color: black;/*var(--nice);*/
+	border: 1px solid white;
+	background-image: linear-gradient(45deg, gold  50%, transparent 50%);
+}
+.tea_btn:hover{color: white;}
+.tea{
+background: var(--nice);	
+	background-image: url(img/diam.svg);
+	background-repeat: no-repeat;
+	background-position:24px 40px;
+	padding: 44px 0px 33px 0px;
+	color: black;
+}
+
+
+.pln_btn{
+	margin: 0 auto;
+	display: block;
+	color: gold;
+	border: 1px solid #8800ae;
+	background-image: linear-gradient(45deg, #8800ae  50%, transparent 50%);
+}
+.pln_btn:hover{color: #8800ae;}
 
 
 
 
+
+.ft_btn{
+	margin: 0 auto 30px;
+	display: block;
+	color: #8800ae;
+	border: 1px solid white;
+	background-image: linear-gradient(45deg, gold  50%, transparent 50%);
+}
+.ft_btn:hover{color: white;}
+
+
+
+/*******spinner************/
 
 
 .spoy1{padding-top: 33px;color: black;}
@@ -301,7 +257,7 @@ details{
   margin-bottom: 1.5rem;
   color: black;
   border: 1px solid var(--nice);
-	border: none;
+border: none;
 }
 summary::-webkit-details-marker{display:none;}
 summary::-moz-list-bullet{list-style-type:none;}
@@ -318,7 +274,6 @@ summary {
 	border-radius: 8px;
 	background-color: var(--nice); 
 	transition: background-color 1s;
-	text-shadow: 1px 1px 10px white;	
 }
 summary:before {  
   top: .4em;
@@ -334,9 +289,9 @@ summary:before {
 details[open]{border: 3px solid var(--nice);}
 
 details[open] > summary {
-	border: none;
-	background-color: white;
-	}
+border: none;
+background-color: white;
+}
 
 details[open] > summary:before {
   transform: rotateZ(90deg);
@@ -355,7 +310,7 @@ summary:focus {
   outline:0;
   box-shadow: inset 0 0 1px rgba(0,0,0,0.3), inset 0 0 2px rgba(0,0,0,0.3);
 } 
-/**********  документ в спойлере  *************/	
+	
 .male{list-style: none;}
 .male li:before{    
 	content: '🔻️';
@@ -372,14 +327,6 @@ summary:focus {
 .digg{list-style-type:decimal;
 margin-left:35px;
 }	
-.nonul{list-style: none;}
-.rass{text-align: center;padding:22px 0 33px;color: black;}
-
-
-.spoy1_1{text-align:center;}
-.spoy1_2{width:100%;}
-.spoy1_3{text-align: left;}
-.spoy1_4{align-self: flex-end;}
 /******************************/
 
 
@@ -388,11 +335,8 @@ margin-left:35px;
 .swiper-container {
   width: 600px;
   height: 568px;
+  b0order: 4px solid springgreen;
 }  
-
-.awp{background: var(--nice);padding-bottom: 33px;}
-.awp_1{overflow: hidden;}
-.awp_2{padding:20px 0 50px;text-align: center;}
 
 .swiper-slide img {width:419px;}
 /*swiper-container*****/
@@ -402,8 +346,6 @@ margin-left:35px;
   overflow: hidden;
   border: 4px solid var(--nice);
 }  
-.swip2__1{color: var(--nice);padding:42px 0 15px;text-align: center;}
-
 
 /*swiper-container*****/
 .swy3 {
@@ -412,42 +354,105 @@ margin-left:35px;
   overflow: hidden;
   background:var(--nice)
 }  
-.swy3{margin: 0 auto;}
-.slider3{padding: 90px 0 60px;}
 img.o1img{width:100%;border-right:2px solid purple;
 border-left:0.5px solid purple;
 }
 /******************************/
+.about p{font-size:18px;}
+.tea_ab p{font-size:18px;}
 
-
-/************** баннер  **************/
-.baner{background-image: radial-gradient(circle, rgba(35, 82, 91) 0%, rgba(2,0,36,1) 100%);}
-.baner02{padding: 1rem 0px 6rem 0px;font-family:sans-serif;color:white;text-align: center; 
-font-weight:700;}
-.baner03{padding: 0  0 33px;}
-.baner04{font-size: 24px; color: var(--nice); text-transform: uppercase;}
-.baner05{font-size: 24px; padding-bottom: 1.5rem;text-transform: uppercase;}
-.baner06{padding-bottom: 1.8rem;font-weight:500;}
-.baner07{padding-bottom: 2rem;color: var(--nice);font-weight:600;}
-.baner08{padding-bottom: 1rem;font-weight:500;}
-.baner09{}
-.baner10{}
-.baner11{}
-
-
-
-
-
-
-
-
-
-
-
+/****************************/
+.awp{background: var(--nice);padding-bottom: 33px;}
+.awp_1{overflow: hidden;}
+.awp_2{padding:20px 0 50px;text-align: center;}
+.swip2__1{color: var(--nice);padding:42px 0 15px;text-align: center;}
+.slider3{padding: 90px 0 60px;}
+.swy3{margin: 0 auto;}
+.what{text-align:center;}
+.what__1{margin: auto;}
+.what__2{cursor: pointer;background: var(--nice);}
+.ft{padding: 90px 0px 60px 0px;}
+#a__7{display: none;}
+.nonul{list-style: none;}
+.rass{text-align: center;padding:22px 0 33px;color: black;}
+.rass_1{padding: 0  0 33px;}
+.rass_2{font-size: 20px;font-weight: bold;}
+.rass_3{font-size: 20px;font-weight: bold;}
+.rass_4{padding: 22px 0px 33px 0px; text-align: center;font-size: 15px;}
+.rass_5{font-size: 18px;}
+.rass_6{padding: 22px 0px 13px 0px; text-align: center;font-size: 15px;}
+.rass_7{text-align: center;padding: 0px 0px 33px 0px;}
+.spoy1_1{text-align:center;}
+.spoy1_2{width:100%;}
+.spoy1_3{text-align: left;}
+.spoy1_4{align-self: flex-end;}
 /*-----------------------------------------------------*/
-
-
-/**********    снежинки     ****************/
+.whatsapp-button {
+    position: fixed;
+    right: 13px;
+    bottom: 90px;
+    transform: translate(-50%, -50%);
+    background: #25D366; /*цвет кнопки*/
+    border-radius: 50%;
+    width: 55px; /*ширина кнопки*/
+    height: 55px; /*высота кнопки*/
+    color: #fff;
+    text-align: center;
+    line-height: 53px; /*центровка иконки в кнопке*/
+    font-size: 35px; /*размер иконки*/
+    z-index: 9999;
+}
+.whatsapp-button a {
+    color: #fff;
+}
+.whatsapp-button:before,
+.whatsapp-button:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    border: 50%;
+    border: 1px solid #25D366; /*цвет анимированных волн от кнопки*/
+    left: -20px;
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    border-radius: 50%;
+    animation: animate 1.5s linear infinite;
+    opacity: 0;
+    backface-visibility: hidden; 
+}
+ 
+.whatsapp-button:after{
+    animation-delay: .5s;
+}
+ 
+@keyframes animate
+{
+    0%
+    {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+@media (max-width : 800px) {  
+.whatsapp-button {   
+    bottom: 5px; /*отступ кнопки снизу от экрана*/
+    left: 70px; /*отступ кнопки слева от экрана(right - справа)*/
+  }
+}
+/******************/
+.bott li {text-align: center; font-size:0.83em;font-weight: bold;}
+.bott li a{font-size: 1em;l0ine-height: 40px;display: block;padding:16px 0px 0px;}
+/**************************/
 .snowflake {/* customizable snowflake styling */
   color: #fff;
   font-size: 1em;
@@ -455,12 +460,44 @@ font-weight:700;}
   text-shadow: 0 0 1px #000;
 }
 
-@-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%{-webkit-transform:translateX(0px);transform:translateX(0px)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}100%{-webkit-transform:translateX(0px);transform:translateX(0px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%{transform:translateX(0px)}50%{transform:translateX(80px)}100%{transform:translateX(0px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}	
+@-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%{-webkit-transform:translateX(0px);transform:translateX(0px)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}100%{-webkit-transform:translateX(0px);transform:translateX(0px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%{transform:translateX(0px)}50%{transform:translateX(80px)}100%{transform:translateX(0px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}
+
+
+/**** new button ticket fron 30mart2023******************/
+.mart{border: 3px solid black; border-radius:30px;	
+background-color: white;			
+background-image: url(img/whatsapp.svg);				
+background-position: right 5px center;
+background-size:auto 51px ;
+background-repeat: no-repeat;
+background-attachment: local;
+box-shadow: -3px 1px 10px rgba(0,0,0,0.5);
+cursor: pointer;}
+.pain{margin-right:35px; font-size:24px;
+				padding: 5px 52px 4px 22px;}
+				
+				
+.mart2{border: 3px solid black; border-radius:30px;	
+background-color: white;			
+background-image: url(img/whatsapp.svg);				
+background-position: right 5px center;
+background-size:auto 51px ;
+background-repeat: no-repeat;
+background-attachment: local;
+box-shadow: -3px 1px 10px rgba(0,0,0,0.5);
+cursor: pointer;}
+.pain2{margin-right:35px; font-size:24px;
+				padding: 5px 33px 4px 20px;}				
+				
+.app1{font-weight:700}
+.app2{font-size:20px;}	
+@media screen and (max-width: 440px) {
+.mart,.mart2{background-size:auto 25px ;}
+.pain,.pain2{font-size:13px;}
+
+.app2{font-size:10px;}
+}			
 /**************/
-
-
-
-
   </style>  
 </head>
 <body>
@@ -479,55 +516,49 @@ font-weight:700;}
 </div>
 - -->
 
-<header class="hat">
-	<div class="april">
-		<button class="mart"
-		onclick="window.location='https://api.whatsapp.com/send?phone=79179658117'"
-		style="background-color: var(--nice);"
-		>			
-			<div class="pain">
-				<span class="app1">Записаться на курс</span>
-			</div>
-		</button>	
-	</div>
+
+<header class="wide tea">
 	
-	<div id="act">
-		<h3 id="soon">До конца акции осталось</h3>	
-		<div id="tablo">
-			<button class="ring">
-				<span id="fanh">6</span>
-				<h3 id="xhh">час</h3>
-			</button>
-			<button class="ring">
-				<span id="fanm">00</span>
-				<h3 id="xmm">минут</h3>
-			</button>				
-			<button class="ring">
-				<span id="fans">00</span>
-				<h3 id="xss">секунд</h3>
-			</button>										
-		</div>
-	</div>	<!-- act -->
-</header>
+	<div class="container" style="overflow:hidden;">
+	
+		<h1 class="tea_h1uu">
+			Академия маникюра и педикюра Анны Донцовой
+		</h1>		
+		<div class="" style="">
+			<img class="tea__1fuu" src="img/pic0.webp" alt="nails mother">
+		</div>	
+						
+		<div style="display: flex; justify-content: flex-end; padding-bottom:16px;">
+			<button class="mart"
+			onclick="window.location='https://api.whatsapp.com/send?phone=79179658117'">			
+				<div class="pain">
+					<span class="app1">Запишись на курс</span>
+					<p class="app2">через WhatsApp</p>
+				</div>
+			</button>			
+		</div>		
 
-
-
-<header class="wide tea">	
-	<div class="container teapot">	
+		
 		<div class="container tea_ab">
-			<p class="tea_hi">
-	Привет! Меня зовут Анна Донцова. Я nail-мастер со стажем более 10 лет и 30.000 рук. Обучила искусству маникюра уже сотни учениц. Я точно знаю, как мастеру зарабатывать  больше и работать меньше, а новичку стать лучше в своем деле. 
+			<p style="text-align: left;text-indent:20px;font-weight:700;">
+				Привет! Меня зовут Анна Донцова. Я nail-мастер со стажем более 9 лет и 30.000 рук. Обучила искусству маникюра уже сотни учениц. Я точно знаю, как мастеру зарабатывать  больше и работать меньше, а новичку стать лучше в своем деле. 
 			</p>			
-			<p class="tea_me">
-	Ведь я сама прошла все этапы роста от мастера на дому до основателя академии маникюра и педикюра. 
+			<p class="tea_me" style="padding-top: 33px;text-align:right;
+			font-weight:700;">
+				Ведь я сама прошла все этапы роста от мастера на дому до основателя академии маникюра и педикюра. 
 			</p>		
 		</div>	
 	</div>
-	<h2 class="wide tea_h2">
-	Научись делать маникюр за 1 час без потери качества!
+	
+	<h2 class="wide tea_h2" style="font-style:italic;
+	text-align: center;
+	text-shadow: 1px 1px 10px white;
+	">
+		Научись делать маникюр за 1 час без потери качества!
 	</h2>
-	<h2 class="container tea_h4">					
-	Запишись на курс повышения квалификации &laquo;Сверхскорость&raquo; сейчас и получи в подарок мастер-класс &laquo;Как покрыть гель-лаком без тонкой кисти&raquo;
+	
+	<h2 class="container tea_h4" style="font-size:19px;">		
+		Запишись на курс повышения квалификации &laquo;Сверхскорость&raquo; сейчас и получи в подарок мастер-класс &laquo;Как покрыть гель-лаком без тонкой кисти&raquo;
 	</h2>									
 </header>
 
@@ -866,79 +897,44 @@ font-weight:700;}
 </section>
 
 
+<div class="wide" style="
+background-image: radial-gradient(circle, rgba(35, 82, 91) 0%, rgba(2,0,36,1) 100%);">
+<div class="container" style="padding: 1rem 0px 6rem 0px;font-family:sans-serif;color:white;text-align: center; 
+font-weight:700;
 
-<div class="wide baner">
-<div class="container baner02">
-	<h3 class="baner03">По окончании курса выдается диплом установленного образца</h3>
-	<div class="baner04">учись сейчас -</div>
-	<div class="baner05">плати потом</div>
-	<div class="baner06">Специальное предложение для моих учеников</div>
-	<div class="baner07">РАССРОЧКА БЕЗ ПЕРЕПЛАТЫ И ПЕРВОНАЧАЛЬНОГО ВЗНОСА</div>
-	<div class="baner08">Чтобы оформить рассрочку: оставьте заявку</div>
-		<button class="mart" onclick="window.location='https://api.whatsapp.com/send?phone=79179658117'">		
+">
+	<h3 class="rass_1">По окончании курса выдается диплом установленного образца</h3>
+	<div style="font-size: 24px; color: var(--nice); text-transform: uppercase;">учись сейчас -</div>
+	<div style="font-size: 24px; padding-bottom: 1.5rem;text-transform: uppercase;">плати потом</div>
+	<div style="padding-bottom: 1.8rem;font-weight:500">Специальное предложение для моих учеников</div>
+	<div style="padding-bottom: 2rem;color: var(--nice);font-weight:600">РАССРОЧКА БЕЗ ПЕРЕПЛАТЫ И ПЕРВОНАЧАЛЬНОГО ВЗНОСА</div>
+	<div style="padding-bottom: 1rem;font-weight:500">Чтобы оформить рассрочку: оставьте заявку</div>
+		<button class="mart" onclick="window.location='https://api.whatsapp.com/send?phone=79179658117'">			
 			<div class="pain">
 				<span class="app1">Запишись на курс</span>
+				<p class="app2">через WhatsApp</p>
 			</div>
 		</button>	
 	</div>
 </div>
 
 
+
 <section class="wide awp">
 	<div class="container awp_1">
 		<h2 class="awp_2" style="color:black;padding-top:3rem;">Работы учениц</h2>
 		<div class="swiper-container">
-			<div class="swiper-wrapper">
-				<div class="swiper-slide" style="color:black">
-					<div>
-					Работа выпускницы курса<br> 
-					Сверхскорость
-					</div>
-				<img src="img/pic1.webp" alt="o">
-				</div>
-				<div class="swiper-slide" style="color:black">
-					<div>Работа выпускницы<br> 
-					базового курса
-					</div>
-					<img src="img/pic2.webp" alt="o">
-				</div>
-				<div class="swiper-slide">
-					<div>
-					</div>
-					<img src="img/pic3.webp" alt="o">
-				</div>
-				<div class="swiper-slide">
-					<div>
-					</div>
-					<img src="img/pic4.webp" alt="o">
-				</div>
-				<div class="swiper-slide">
-					<div>
-					</div>
-					<img src="img/pic5.webp" alt="o">
-				</div>
-				<div class="swiper-slide" style="color:black">
-					<div>Работа выпускницы<br> 
-					базового курса
-					</div>
-					<img src="img/pic6.webp" alt="o">
-				</div>		
-				<div class="swiper-slide">
-					<div>
-					</div>
-					<img src="img/pic7.webp" alt="o">
-				</div>
-				<div class="swiper-slide">
-					<div>
-					</div>
-					<img src="img/pic8.webp" alt="o">
-				</div>
-				<div class="swiper-slide">
-					<div>
-					</div>
-					<img src="img/pic9.webp" alt="o">
-				</div>		
-			</div>
+		  <div class="swiper-wrapper">
+			<div class="swiper-slide" style="color:black"><div>Работа выпускницы курса<br> Сверхскорость</div><img src="img/pic1.webp" alt="o"></div>
+			<div class="swiper-slide" style="color:black"><div>Работа выпускницы<br> базового курса</div><img src="img/pic2.webp" alt="o"></div>
+			<div class="swiper-slide"><div></div><img src="img/pic3.webp" alt="o"></div>
+			<div class="swiper-slide"><div></div><img src="img/pic4.webp" alt="o"></div>
+			<div class="swiper-slide"><div></div><img src="img/pic5.webp" alt="o"></div>
+			<div class="swiper-slide" style="color:black"><div>Работа выпускницы<br> базового курса</div><img src="img/pic6.webp" alt="o"></div>		
+			<div class="swiper-slide"><div></div><img src="img/pic7.webp" alt="o"></div>
+			<div class="swiper-slide"><div></div><img src="img/pic8.webp" alt="o"></div>
+			<div class="swiper-slide"><div></div><img src="img/pic9.webp" alt="o"></div>		
+		  </div>
 		</div>
 	</div>	
 </section>
@@ -948,110 +944,112 @@ font-weight:700;}
 <section class="container swip2">
 <h2 class="swip2__1" style="color: black;">Видеоотзывы</h2>
 	<div class="swiper-container swy2">
-		<div class="swiper-wrapper">
-			<div class="swiper-slide">
-				<video width="280" controls poster="./vidos/p10.webp">
-					<source src="./vidos/vid10.mp4" type="video/mp4">
-					Тег video не поддерживается вашим браузером.
-				</video>			
-			</div>
-			<div class="swiper-slide">
-				<video width="280" controls poster="./vidos/p11.webp">
-					 <source src="./vidos/vid11.mp4" type="video/mp4">
-					 Тег video не поддерживается вашим браузером.
-				</video>			
-			</div>
+	  <div class="swiper-wrapper">
+		<div class="swiper-slide">
+	<video width="280" controls poster="./vidos/p10.webp">
+	 <source src="./vidos/vid10.mp4" type="video/mp4">
+	 Тег video не поддерживается вашим браузером.
+	</video>	
 		
-			<div class="swiper-slide">
-				<video width="280" controls poster="./vidos/p12.webp">
-					 <source src="./vidos/vid12.mp4" type="video/mp4">
-					 Тег video не поддерживается вашим браузером.
-				</video>			
-			</div>
-			<div class="swiper-slide">
-				<video width="280" controls poster="./vidos/p13.webp">
-					 <source src="./vidos/vid13.mp4" type="video/mp4">
-					 Тег video не поддерживается вашим браузером.
-				</video>			
-			</div>		
-			<div class="swiper-slide">
-				<video width="280" controls poster="./vidos/p14.webp">
-					 <source src="./vidos/vid14.mp4" type="video/mp4">
-					 Тег video не поддерживается вашим браузером.
-				</video>			
-			</div>		
-			<div class="swiper-slide">
-				<video width="280" controls poster="./vidos/p15.webp">
-					<source src="./vidos/vid15.mp4" type="video/mp4">
-					Тег video не поддерживается вашим браузером.
-				</video>			
-			</div>		
-			<div class="swiper-slide">
-				<video width="280" controls poster="./vidos/p16.webp">
-					<source src="./vidos/vid16.mp4" type="video/mp4">
-					Тег video не поддерживается вашим браузером.
-				</video>			
-			</div>			
-		
-			<div class="swiper-slide">
-				<video width="280" controls poster="./vidos/p17.webp">
-					<source src="./vidos/vid17.mp4" type="video/mp4">
-					Тег video не поддерживается вашим браузером.
-				</video>			
-			</div>							
 		</div>
+		<div class="swiper-slide">
+	<video width="280" controls poster="./vidos/p11.webp">
+	 <source src="./vidos/vid11.mp4" type="video/mp4">
+	 Тег video не поддерживается вашим браузером.
+	</video>			
+		</div>
+		
+		<div class="swiper-slide">
+			<video width="280" controls poster="./vidos/p12.webp">
+			 <source src="./vidos/vid12.mp4" type="video/mp4">
+			 Тег video не поддерживается вашим браузером.
+			</video>			
+		</div>
+		<div class="swiper-slide">
+			<video width="280" controls poster="./vidos/p13.webp">
+			 <source src="./vidos/vid13.mp4" type="video/mp4">
+			 Тег video не поддерживается вашим браузером.
+			</video>			
+		</div>		
+		<div class="swiper-slide">
+			<video width="280" controls poster="./vidos/p14.webp">
+			 <source src="./vidos/vid14.mp4" type="video/mp4">
+			 Тег video не поддерживается вашим браузером.
+			</video>			
+		</div>		
+		<div class="swiper-slide">
+			<video width="280" controls poster="./vidos/p15.webp">
+			 <source src="./vidos/vid15.mp4" type="video/mp4">
+			 Тег video не поддерживается вашим браузером.
+			</video>			
+		</div>		
+		<div class="swiper-slide">
+			<video width="280" controls poster="./vidos/p16.webp">
+			 <source src="./vidos/vid16.mp4" type="video/mp4">
+			 Тег video не поддерживается вашим браузером.
+			</video>			
+		</div>			
+		
+		<div class="swiper-slide">
+			<video width="280" controls poster="./vidos/p17.webp">
+			 <source src="./vidos/vid17.mp4" type="video/mp4">
+			 Тег video не поддерживается вашим браузером.
+			</video>			
+		</div>							
+	  </div>
 	</div>
 </section>
 
 
 <section class="container slider3"> 
 	<div class="swiper-container swy3">
-		<div class="swiper-wrapper">
-			<div class="swiper-slide">
-				<img class="o1img" src="img/o1.webp" alt="o">
-			</div>	
-			<div class="swiper-slide">
-				<img class="o1img" src="img/o2.webp" alt="o">
-			</div>	
-			<div class="swiper-slide">
-				<img class="o1img" src="img/o3.webp" alt="o">
-			</div>	
-			<div class="swiper-slide">
-				<img class="o1img" src="img/o4.webp" alt="o">
-			</div>			
-			<div class="swiper-slide">
-				<img class="o1img" src="img/o5.webp" alt="o">
-			</div>			
-			<div class="swiper-slide">
-				<img class="o1img" src="img/o6.webp" alt="o">
-			</div>		
-			<div class="swiper-slide">
-				<img class="o1img" src="img/o7.webp" alt="o">
-			</div>
-			<div class="swiper-slide">
-				<img class="o1img" src="img/o8.webp" alt="o">
-			</div>
-			<div class="swiper-slide">
-				<img class="o1img" src="img/o9.webp" alt="o">
-			</div>
-			<div class="swiper-slide">
-				<img class="o1img" src="img/o10.webp" alt="o">
-			</div>
-			<div class="swiper-slide">
-				<img class="o1img" src="img/o11.webp" alt="o">
-			</div>
-			<div class="swiper-slide">
-				<img class="o1img" src="img/o12.webp" alt="o">
-			</div>		
+	  <div class="swiper-wrapper">
+		<div class="swiper-slide">
+			<img class="o1img" src="img/o1.webp" alt="o">
+		</div>	
+		<div class="swiper-slide">
+			<img class="o1img" src="img/o2.webp" alt="o">
+		</div>	
+		<div class="swiper-slide">
+			<img class="o1img" src="img/o3.webp" alt="o">
+		</div>	
+		<div class="swiper-slide">
+			<img class="o1img" src="img/o4.webp" alt="o">
+		</div>			
+		<div class="swiper-slide">
+			<img class="o1img" src="img/o5.webp" alt="o">
+		</div>			
+		<div class="swiper-slide">
+			<img class="o1img" src="img/o6.webp" alt="o">
+		</div>		
+		<div class="swiper-slide">
+			<img class="o1img" src="img/o7.webp" alt="o">
 		</div>
+		<div class="swiper-slide">
+			<img class="o1img" src="img/o8.webp" alt="o">
+		</div>
+		<div class="swiper-slide">
+			<img class="o1img" src="img/o9.webp" alt="o">
+		</div>
+		<div class="swiper-slide">
+			<img class="o1img" src="img/o10.webp" alt="o">
+		</div>
+		<div class="swiper-slide">
+			<img class="o1img" src="img/o11.webp" alt="o">
+		</div>
+		<div class="swiper-slide">
+			<img class="o1img" src="img/o12.webp" alt="o">
+		</div>		
+	  </div>
 	</div>
 </section>
 
 
-<section class="container that" style="padding-bottom:75px;">	
+<section class="container what" style="padding-bottom:75px;">	
 	<button class="mart" onclick="window.location='https://api.whatsapp.com/send?phone=79179658117'">			
 		<div class="pain">
 			<span class="app1">Запишись на курс</span>
+			<p class="app2">через WhatsApp</p>
 		</div>
 	</button>		
 </section>
@@ -1060,9 +1058,9 @@ font-weight:700;}
 
 
 <footer class="wide ft">
-	<div class="container ft_feet">
-		<div class="ft_feet_1">	
-			<ul class="ft_soc">
+	<div class="container feet" style="color:black;">
+		<div class="feet_1">	
+			<ul class="soc">
 				<li><a href="https://vk.com/anna22092014" aria-label="Read more about Seminole tax hike">
 				<svg class="t-sociallinks__svg" width="48px" height="48px" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M50 100c27.614 0 50-22.386 50-50S77.614 0 50 0 0 22.386 0 50s22.386 50 50 50ZM25 34c.406 19.488 10.15 31.2 27.233 31.2h.968V54.05c6.278.625 11.024 5.216 12.93 11.15H75c-2.436-8.87-8.838-13.773-12.836-15.647C66.162 47.242 71.783 41.62 73.126 34h-8.058c-1.749 6.184-6.932 11.805-11.867 12.336V34h-8.057v21.611C40.147 54.362 33.838 48.304 33.556 34H25Z" fill="#050200"></path></svg>
 				</a>	
@@ -1079,7 +1077,7 @@ font-weight:700;}
 			
 
 			
-			<ul class="ft_bott">
+			<ul class="bott">
 				<li>ИП ОРЛОВА РАИСА ЛЕОНИДОВНА
 				<li>ИНН 632126381593		
 				<li>ОГРН 322631200136766							  
@@ -1145,7 +1143,7 @@ function present(){
 				
 			xhh.innerText=hhh((360-t)/60|0);
 			xmm.innerText=mmm((360-t)%60);
-			xss.innerText=sss((60*360-k)%60)+'';
+			xss.innerText=sss((60*360-k)%60)+'ыы';
 			tm=setTimeout(present,1000);
 		}
 		else
@@ -1165,16 +1163,13 @@ function present(){
 present();// сообщение о подарках
 
 
-//
-/************ swiper ***/	
-	
+/************ swiper ***/		
 const swiper1 = new Swiper('.swiper-container', {
   loop: true,
 });	
 //.swiper-container, 
 const swiper2 = new Swiper('.swy2', {
   loop: true,
-  
 });	
 //.swiper-container, 
 const swiper3 = new Swiper('.swy3', {
