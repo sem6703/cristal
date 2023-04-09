@@ -214,7 +214,9 @@ h1{
 	
 
 /************tea хедер №2******************************/	
-.tea{background: var(--nice);	
+.tea{
+	display: none;
+	background: var(--nice);	
 	padding: 44px 0px 33px 0px;
 	color: black;}
 .teapot{overflow:hidden;}
@@ -226,9 +228,18 @@ h1{
 .tea_ab p{font-size:18px;}
 
 
-/**************************************************/
+/******** супер привет******************************************/
 
-
+.privet{
+	margin: 0 auto;
+	max-width: 720px; aspect-ratio:72/128;
+	background-image: url(cris/apr2.jpg);
+	background-position: top center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: local;
+	
+	}
 
 
 
@@ -381,16 +392,21 @@ margin-left:35px;
 .spoy1_3{text-align: left;}
 .spoy1_4{align-self: flex-end;}
 /******************************/
-
+.slider40{margin:0 auto;
+	padding: 170px 1px 1px 1px;
+	max-width: 720px;aspect-ratio:72/128;
+	min-height: 765px;max-height: 800px;
+	background-image: url(cris/apr4.jpg);
+	background-position: top center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: local;
+	}
+.slider41{overflow: hidden;}
 .slider43 {
   width: 600px;
   height: 568px;
 }  
-
-.slider40{background: var(--nice);padding-bottom: 33px;}
-.slider41{overflow: hidden;}
-.slider42{padding:20px 0 50px;text-align: center;}
-
 /******************************/
 /******************************/
 
@@ -439,7 +455,9 @@ border-left:0.5px solid purple;
 
 
 /************** баннер  **************/
-.baner{background-image: radial-gradient(circle, rgba(35, 82, 91) 0%, rgba(2,0,36,1) 100%);}
+.baner{
+display: none;
+background-image: radial-gradient(circle, rgba(35, 82, 91) 0%, rgba(2,0,36,1) 100%);}
 .baner02{padding: 1rem 0px 6rem 0px;font-family:sans-serif;color:white;text-align: center; 
 font-weight:700;}
 .baner03{padding: 0  0 33px;}
@@ -451,8 +469,34 @@ font-weight:700;}
 .baner09{}
 .baner10{}
 .baner11{}
-/*-----------------------------------------------------*/
-
+/*------------ cупер баннер -----------------------------------------*/
+.bann{
+	margin: 0 auto;
+	padding:188px 0 0 0;
+	max-width: 720px; aspect-ratio:72/128;
+	background-image: url(cris/apr3.jpg);
+	background-position: top center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: local;
+	text-align: center;
+}
+.bannbtn{
+	margin: auto;
+	cursor: pointer;
+	width:75%; height:13%;
+	b0order:3px solid purple;
+	border: none;
+	border-radius: calc(60px);
+	background-image: url(cris/apr31.jpg);
+	background-position: top center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: local;
+}
+@media screen and (max-width: 720px) {
+.bann{padding:25.5% 0 0 0;}
+}
 
 /**********    снежинки     ****************/
 .snowflake {/* customizable snowflake styling */
@@ -516,6 +560,11 @@ font-weight:700;}
 		</div>
 	</div>	<!-- act -->
 </header>
+
+
+<header class="privet">
+</header>
+
 
 
 
@@ -887,59 +936,66 @@ font-weight:700;}
 </div>
 
 
-<section class="wide awp">
-	<div class="container awp_1">
-		<h2 class="awp_2" style="color:black;padding-top:3rem;">Работы учениц</h2>
-		<div class="swiper-container">
+<section class="bann">
+<button class="bannbtn"
+onclick="window.location='https://api.whatsapp.com/send?phone=79179658117'"
+></button>
+
+</section>
+			
+
+<section class="slider40">
+	<div class="container slider41">
+		<div class="slider43">
 			<div class="swiper-wrapper">
 				<div class="swiper-slide" style="color:black">
 					<div>
 					Работа выпускницы курса<br> 
 					Сверхскорость
 					</div>
-				<img src="img/pic1.webp" alt="o">
+					<img src="img/pic1.webp" loading="lazy" alt="o">
 				</div>
 				<div class="swiper-slide" style="color:black">
 					<div>Работа выпускницы<br> 
 					базового курса
 					</div>
-					<img src="img/pic2.webp" alt="o">
+					<img src="img/pic2.webp" loading="lazy" alt="o">
 				</div>
 				<div class="swiper-slide">
 					<div>
 					</div>
-					<img src="img/pic3.webp" alt="o">
+					<img src="img/pic3.webp" loading="lazy" alt="o">
 				</div>
 				<div class="swiper-slide">
 					<div>
 					</div>
-					<img src="img/pic4.webp" alt="o">
+					<img src="img/pic4.webp" loading="lazy" alt="o">
 				</div>
 				<div class="swiper-slide">
 					<div>
 					</div>
-					<img src="img/pic5.webp" alt="o">
+					<img src="img/pic5.webp" loading="lazy" alt="o">
 				</div>
 				<div class="swiper-slide" style="color:black">
 					<div>Работа выпускницы<br> 
 					базового курса
 					</div>
-					<img src="img/pic6.webp" alt="o">
+					<img src="img/pic6.webp" loading="lazy" alt="o">
 				</div>		
 				<div class="swiper-slide">
 					<div>
 					</div>
-					<img src="img/pic7.webp" alt="o">
+					<img src="img/pic7.webp" loading="lazy" alt="o">
 				</div>
 				<div class="swiper-slide">
 					<div>
 					</div>
-					<img src="img/pic8.webp" alt="o">
+					<img src="img/pic8.webp" loading="lazy" alt="o">
 				</div>
 				<div class="swiper-slide">
 					<div>
 					</div>
-					<img src="img/pic9.webp" alt="o">
+					<img src="img/pic9.webp" loading="lazy" alt="o">
 				</div>		
 			</div>
 		</div>
@@ -1050,74 +1106,8 @@ font-weight:700;}
 	</div>
 </section>
 
-<section class="slider40" style="margin:0 auto;
-padding: 170px 1px 1px 1px;
-max-width: 720px;aspect-ratio:72/128;
-min-height: 765px;max-height: 800px;
-	background-image: url(cris/apr4.jpg);
-	background-position: top center;
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-attachment: local;
 
-">
-	<div class="container slider41">
 
-		<div class="slider43">
-			<div class="swiper-wrapper">
-				<div class="swiper-slide" style="color:black">
-					<div>
-					Работа выпускницы курса<br> 
-					Сверхскорость
-					</div>
-				<img src="img/pic1.webp" loading="lazy" alt="o">
-				</div>
-				<div class="swiper-slide" style="color:black">
-					<div>Работа выпускницы<br> 
-					базового курса
-					</div>
-					<img src="img/pic2.webp" loading="lazy" alt="o">
-				</div>
-				<div class="swiper-slide">
-					<div>
-					</div>
-					<img src="img/pic3.webp" alt="o">
-				</div>
-				<div class="swiper-slide">
-					<div>
-					</div>
-					<img src="img/pic4.webp" alt="o">
-				</div>
-				<div class="swiper-slide">
-					<div>
-					</div>
-					<img src="img/pic5.webp" alt="o">
-				</div>
-				<div class="swiper-slide" style="color:black">
-					<div>Работа выпускницы<br> 
-					базового курса
-					</div>
-					<img src="img/pic6.webp" alt="o">
-				</div>		
-				<div class="swiper-slide">
-					<div>
-					</div>
-					<img src="img/pic7.webp" alt="o">
-				</div>
-				<div class="swiper-slide">
-					<div>
-					</div>
-					<img src="img/pic8.webp" alt="o">
-				</div>
-				<div class="swiper-slide">
-					<div>
-					</div>
-					<img src="img/pic9.webp" alt="o">
-				</div>		
-			</div>
-		</div>
-	</div>	
-</section>
 
 
 <section class="slider50" style="margin:0 auto;
