@@ -392,23 +392,40 @@ margin-left:35px;
 .spoy1_3{text-align: left;}
 .spoy1_4{align-self: flex-end;}
 /******************************/
-.slider40{margin:0 auto;
-	padding: 170px 1px 1px 1px;
-	max-width: 720px;aspect-ratio:72/128;
-	min-height: 765px;max-height: 800px;
-	background-image: url(cris/apr4.jpg);
-	background-position: top center;
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-attachment: local;
+
+.swiper-slide img {width:419px;}/* это красной нитью проходит через все слайдеры*/
+
+.slider40{
+	margin:0 auto;
+	padding: 170px 1px 50px 1px;
+	max-width: 720px;a0spect-ratio:72/128;
+	m0in-height: 765px;m0ax-height: 800px;
+		background-image: url(cris/apr4.jpg);
+		background-position: top center;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-attachment: local;
+		
 	}
-.slider41{overflow: hidden;}
-.slider43 {
-  width: 600px;
+.slider41{o0verflow: hidden;}
+.slider43js {
+  margin: auto;
+  width: 485px;
   height: 568px;
+  overflow: hidden;
+  p0adding-left:33px;  
 }  
+.slider44{padding-left:2rem;}
+@media screen and (max-width: 720px) {
+.slider40{
+padding: 25% 1px 50px 1px;
+aspect-ratio:auto;}
+}
+
 /******************************/
 /******************************/
+
+
 
 .slider53 {
   width: 600px;
@@ -428,7 +445,7 @@ margin-left:35px;
 .awp_1{overflow: hidden;}
 .awp_2{padding:20px 0 50px;text-align: center;}
 
-.swiper-slide img {width:419px;}
+
 /*swiper-container*****/
 .swy2 {
   width: 100%;/*600px;*/
@@ -454,21 +471,7 @@ border-left:0.5px solid purple;
 /******************************/
 
 
-/************** баннер  **************/
-.baner{
-display: none;
-background-image: radial-gradient(circle, rgba(35, 82, 91) 0%, rgba(2,0,36,1) 100%);}
-.baner02{padding: 1rem 0px 6rem 0px;font-family:sans-serif;color:white;text-align: center; 
-font-weight:700;}
-.baner03{padding: 0  0 33px;}
-.baner04{font-size: 24px; color: var(--nice); text-transform: uppercase;}
-.baner05{font-size: 24px; padding-bottom: 1.5rem;text-transform: uppercase;}
-.baner06{padding-bottom: 1.8rem;font-weight:500;}
-.baner07{padding-bottom: 2rem;color: var(--nice);font-weight:600;}
-.baner08{padding-bottom: 1rem;font-weight:500;}
-.baner09{}
-.baner10{}
-.baner11{}
+
 /*------------ cупер баннер -----------------------------------------*/
 .bann{
 	margin: 0 auto;
@@ -990,28 +993,13 @@ font-weight:700;}
 
 
 
-<div class="wide baner">
-<div class="container baner02">
-	<h3 class="baner03">По окончании курса выдается диплом установленного образца</h3>
-	<div class="baner04">учись сейчас -</div>
-	<div class="baner05">плати потом</div>
-	<div class="baner06">Специальное предложение для моих учеников</div>
-	<div class="baner07">РАССРОЧКА БЕЗ ПЕРЕПЛАТЫ И ПЕРВОНАЧАЛЬНОГО ВЗНОСА</div>
-	<div class="baner08">Чтобы оформить рассрочку: оставьте заявку</div>
-		<button class="mart" onclick="window.location='https://api.whatsapp.com/send?phone=79179658117'">		
-			<div class="pain">
-				<span class="app1">Записаться на курс</span>
-			</div>
-		</button>	
-	</div>
-</div>
+
 
 
 <section class="bann">
-<button class="bannbtn"
-onclick="window.location='https://api.whatsapp.com/send?phone=79179658117'"
-></button>
-
+	<button class="bannbtn"
+	onclick="window.location='https://api.whatsapp.com/send?phone=79179658117'"
+	></button>
 </section>
 			
 
@@ -1034,63 +1022,132 @@ onclick="window.location='https://api.whatsapp.com/send?phone=79179658117'"
 </section>
 
 <section class="slider40">
-	<div class="container slider41">
-		<div class="slider43">
-			<div class="swiper-wrapper">
-				<div class="swiper-slide" style="color:black">
-					<div>
-					Работа выпускницы курса<br> 
-					Сверхскорость
-					</div>
-					<img src="img/pic1.webp" loading="lazy" alt="o">
+<div class="slider41">
+	<div class="slider43js">
+		<div class="swiper-wrapper" style="b0ackground: gold;">
+			<div class="swiper-slide" style="color:black">
+				<div class="slider44">
+				Работа выпускницы курса<br> 
+				Сверхскорость
 				</div>
-				<div class="swiper-slide" style="color:black">
-					<div>Работа выпускницы<br> 
-					базового курса
-					</div>
-					<img src="img/pic2.webp" loading="lazy" alt="o">
-				</div>
-				<div class="swiper-slide">
-					<div>
-					</div>
-					<img src="img/pic3.webp" loading="lazy" alt="o">
-				</div>
-				<div class="swiper-slide">
-					<div>
-					</div>
-					<img src="img/pic4.webp" loading="lazy" alt="o">
-				</div>
-				<div class="swiper-slide">
-					<div>
-					</div>
-					<img src="img/pic5.webp" loading="lazy" alt="o">
-				</div>
-				<div class="swiper-slide" style="color:black">
-					<div>Работа выпускницы<br> 
-					базового курса
-					</div>
-					<img src="img/pic6.webp" loading="lazy" alt="o">
-				</div>		
-				<div class="swiper-slide">
-					<div>
-					</div>
-					<img src="img/pic7.webp" loading="lazy" alt="o">
-				</div>
-				<div class="swiper-slide">
-					<div>
-					</div>
-					<img src="img/pic8.webp" loading="lazy" alt="o">
-				</div>
-				<div class="swiper-slide">
-					<div>
-					</div>
-					<img src="img/pic9.webp" loading="lazy" alt="o">
-				</div>		
+				<img src="img/pic1.webp" loading="lazy" alt="o">
 			</div>
+			<div class="swiper-slide" style="color:black">
+				<div class="slider44">Работа выпускницы<br> 
+				базового курса
+				</div>
+				<img src="img/pic2.webp" loading="lazy" alt="o">
+			</div>
+			<div class="swiper-slide">
+				<div class="slider44">
+				</div>
+				<img src="img/pic3.webp" loading="lazy" alt="o">
+			</div>
+			<div class="swiper-slide">
+				<div class="slider44">
+				</div>
+				<img src="img/pic4.webp" loading="lazy" alt="o">
+			</div>
+			<div class="swiper-slide">
+				<div class="slider44">
+				</div>
+				<img src="img/pic5.webp" loading="lazy" alt="o">
+			</div>
+			<div class="swiper-slide" style="color:black">
+				<div class="slider44">Работа выпускницы<br> 
+				базового курса
+				</div>
+				<img src="img/pic6.webp" loading="lazy" alt="o">
+			</div>		
+			<div class="swiper-slide">
+				<div class="slider44">
+				</div>
+				<img src="img/pic7.webp" loading="lazy" alt="o">
+			</div>
+			<div class="swiper-slide">
+				<div class="slider44">
+				</div>
+				<img src="img/pic8.webp" loading="lazy" alt="o">
+			</div>
+			<div class="swiper-slide">
+				<div class="slider44">
+				</div>
+				<img src="img/pic9.webp" loading="lazy" alt="o">
+			</div>		
 		</div>
-	</div>	
+	</div>
+</div>	
 </section>
 
+
+
+<!-- видео -->
+<section class="slider50" style="margin:0 auto;
+padding: 170px 1px 1px 1px;
+max-width: 720px;aspect-ratio:72/128;
+min-height: 765px;max-height: 800px;
+	background-image: url(cris/apr5.jpg);
+	background-position: top center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: local;
+
+">
+	<div class="swiper-container slider51">
+		<div class="swiper-wrapper slider52">
+			<div class="swiper-slide">
+				<video width="280" controls poster="./vidos/p10.webp" preload="none">
+					<source src="./vidos/vid10.mp4" type="video/mp4">
+					Тег video не поддерживается вашим браузером.
+				</video>			
+			</div>
+			<div class="swiper-slide">
+				<video width="280" controls poster="./vidos/p11.webp" preload="none">
+					 <source src="./vidos/vid11.mp4" type="video/mp4">
+					 Тег video не поддерживается вашим браузером.
+				</video>			
+			</div>
+		
+			<div class="swiper-slide">
+				<video width="280" controls poster="./vidos/p12.webp" preload="none">
+					 <source src="./vidos/vid12.mp4" type="video/mp4">
+					 Тег video не поддерживается вашим браузером.
+				</video>			
+			</div>
+			<div class="swiper-slide">
+				<video width="280" controls poster="./vidos/p13.webp" preload="none">
+					 <source src="./vidos/vid13.mp4" type="video/mp4">
+					 Тег video не поддерживается вашим браузером.
+				</video>			
+			</div>		
+			<div class="swiper-slide">
+				<video width="280" controls poster="./vidos/p14.webp" preload="none">
+					 <source src="./vidos/vid14.mp4" type="video/mp4">
+					 Тег video не поддерживается вашим браузером.
+				</video>			
+			</div>		
+			<div class="swiper-slide">
+				<video width="280" controls poster="./vidos/p15.webp" preload="none">
+					<source src="./vidos/vid15.mp4" type="video/mp4">
+					Тег video не поддерживается вашим браузером.
+				</video>			
+			</div>		
+			<div class="swiper-slide">
+				<video width="280" controls poster="./vidos/p16.webp" preload="none">
+					<source src="./vidos/vid16.mp4" type="video/mp4">
+					Тег video не поддерживается вашим браузером.
+				</video>			
+			</div>			
+		
+			<div class="swiper-slide">
+				<video width="280" controls poster="./vidos/p17.webp" preload="none">
+					<source src="./vidos/vid17.mp4" type="video/mp4">
+					Тег video не поддерживается вашим браузером.
+				</video>			
+			</div>							
+		</div>
+	</div>
+</section>
 
 
 <section class="container swip2">
@@ -1098,51 +1155,51 @@ onclick="window.location='https://api.whatsapp.com/send?phone=79179658117'"
 	<div class="swiper-container swy2">
 		<div class="swiper-wrapper">
 			<div class="swiper-slide">
-				<video width="280" controls poster="./vidos/p10.webp">
+				<video width="280" controls poster="./vidos/p10.webp" preload="none">
 					<source src="./vidos/vid10.mp4" type="video/mp4">
 					Тег video не поддерживается вашим браузером.
 				</video>			
 			</div>
 			<div class="swiper-slide">
-				<video width="280" controls poster="./vidos/p11.webp">
+				<video width="280" controls poster="./vidos/p11.webp" preload="none">
 					 <source src="./vidos/vid11.mp4" type="video/mp4">
 					 Тег video не поддерживается вашим браузером.
 				</video>			
 			</div>
 		
 			<div class="swiper-slide">
-				<video width="280" controls poster="./vidos/p12.webp">
+				<video width="280" controls poster="./vidos/p12.webp" preload="none">
 					 <source src="./vidos/vid12.mp4" type="video/mp4">
 					 Тег video не поддерживается вашим браузером.
 				</video>			
 			</div>
 			<div class="swiper-slide">
-				<video width="280" controls poster="./vidos/p13.webp">
+				<video width="280" controls poster="./vidos/p13.webp" preload="none">
 					 <source src="./vidos/vid13.mp4" type="video/mp4">
 					 Тег video не поддерживается вашим браузером.
 				</video>			
 			</div>		
 			<div class="swiper-slide">
-				<video width="280" controls poster="./vidos/p14.webp">
+				<video width="280" controls poster="./vidos/p14.webp" preload="none">
 					 <source src="./vidos/vid14.mp4" type="video/mp4">
 					 Тег video не поддерживается вашим браузером.
 				</video>			
 			</div>		
 			<div class="swiper-slide">
-				<video width="280" controls poster="./vidos/p15.webp">
+				<video width="280" controls poster="./vidos/p15.webp" preload="none">
 					<source src="./vidos/vid15.mp4" type="video/mp4">
 					Тег video не поддерживается вашим браузером.
 				</video>			
 			</div>		
 			<div class="swiper-slide">
-				<video width="280" controls poster="./vidos/p16.webp">
+				<video width="280" controls poster="./vidos/p16.webp" preload="none">
 					<source src="./vidos/vid16.mp4" type="video/mp4">
 					Тег video не поддерживается вашим браузером.
 				</video>			
 			</div>			
 		
 			<div class="swiper-slide">
-				<video width="280" controls poster="./vidos/p17.webp">
+				<video width="280" controls poster="./vidos/p17.webp" preload="none">
 					<source src="./vidos/vid17.mp4" type="video/mp4">
 					Тег video не поддерживается вашим браузером.
 				</video>			
@@ -1199,72 +1256,6 @@ onclick="window.location='https://api.whatsapp.com/send?phone=79179658117'"
 
 
 
-<section class="slider50" style="margin:0 auto;
-padding: 170px 1px 1px 1px;
-max-width: 720px;aspect-ratio:72/128;
-min-height: 765px;max-height: 800px;
-	background-image: url(cris/apr5.jpg);
-	background-position: top center;
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-attachment: local;
-
-">
-	<div class="swiper-container slider51">
-		<div class="swiper-wrapper slider52">
-			<div class="swiper-slide">
-				<video width="280" controls poster="./vidos/p10.webp">
-					<source src="./vidos/vid10.mp4" type="video/mp4">
-					Тег video не поддерживается вашим браузером.
-				</video>			
-			</div>
-			<div class="swiper-slide">
-				<video width="280" controls poster="./vidos/p11.webp">
-					 <source src="./vidos/vid11.mp4" type="video/mp4">
-					 Тег video не поддерживается вашим браузером.
-				</video>			
-			</div>
-		
-			<div class="swiper-slide">
-				<video width="280" controls poster="./vidos/p12.webp">
-					 <source src="./vidos/vid12.mp4" type="video/mp4">
-					 Тег video не поддерживается вашим браузером.
-				</video>			
-			</div>
-			<div class="swiper-slide">
-				<video width="280" controls poster="./vidos/p13.webp">
-					 <source src="./vidos/vid13.mp4" type="video/mp4">
-					 Тег video не поддерживается вашим браузером.
-				</video>			
-			</div>		
-			<div class="swiper-slide">
-				<video width="280" controls poster="./vidos/p14.webp">
-					 <source src="./vidos/vid14.mp4" type="video/mp4">
-					 Тег video не поддерживается вашим браузером.
-				</video>			
-			</div>		
-			<div class="swiper-slide">
-				<video width="280" controls poster="./vidos/p15.webp">
-					<source src="./vidos/vid15.mp4" type="video/mp4">
-					Тег video не поддерживается вашим браузером.
-				</video>			
-			</div>		
-			<div class="swiper-slide">
-				<video width="280" controls poster="./vidos/p16.webp">
-					<source src="./vidos/vid16.mp4" type="video/mp4">
-					Тег video не поддерживается вашим браузером.
-				</video>			
-			</div>			
-		
-			<div class="swiper-slide">
-				<video width="280" controls poster="./vidos/p17.webp">
-					<source src="./vidos/vid17.mp4" type="video/mp4">
-					Тег video не поддерживается вашим браузером.
-				</video>			
-			</div>							
-		</div>
-	</div>
-</section>
 
 
 
@@ -1401,11 +1392,11 @@ const swiper3 = new Swiper('.swy3', {
   loop: true,
 });	
 
-const swiper40 = new Swiper('.slider43', {
+const swiper40 = new Swiper('.slider43js', {// фото
   loop: true,
 });	
 
-const swiper50 = new Swiper('.slider53', {
+const swiper50 = new Swiper('.slider53', {// видео
   loop: true,
 });	
 
