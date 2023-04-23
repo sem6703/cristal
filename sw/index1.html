@@ -699,11 +699,17 @@ h1{text-decoration: underline;}
   </style>  
 </head>
 <body text=black bgcolor=white>
-<a href="file:///K:/!/projAll/html2/dig2.html">feb2023</a>
-<a href="file:///K:/!/projAll/html1/main.html">dec2023</a>
-<a href="file:///K:/!/projAll/css_%D0%BF%D1%81%D0%B5%D0%B2%D0%B4%D1%8B/index.html">два кота
-(с iframes)
-</a>
+<p style="white-space:pre-wrap">
+Uncaught TypeError: Failed to execute 'getComputedStyle' on 'Window': parameter 1 is not of type 'Element'.
+    at elementStyle (swiper-bundle.js:388:21)
+    at Swiper.mount (swiper-bundle.js:3825:21)
+    at Swiper.init (swiper-bundle.js:3832:32)
+    at new Swiper (swiper-bundle.js:3552:18)
+    at index1.html:767:17
+	
+	враппер элемент потерялся
+</p>
+
 <article>
 <h1>gitk</h1>
 нужен чтобы достать важный файл X погребенный под релизами
@@ -726,11 +732,47 @@ git checkout 9a4d0567760c6483f6072ca1de9d738c3c0f615b
 </ol>
 </article>
 
-<div id=i></div>
+<div id=i>
 
- 
+<!-- видео
+
+padding: 170px 1px 1px 1px;
+max-width: 720px;aspect-ratio:72/128;
+min-height: 765px;max-height: 800px;
+	background-image: url(cris/apr5.jpg);
+	background-position: top center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: local;
+
+ -->
+<section class="slider5" style="margin:0 auto;">
+	<div class="swiper-container slider51">
+		<div class="swiper-wrapper slider52">
+			<div class="swiper-slide">
+				<div class="slider44">
+				</div>
+				<img src="cosm.jpg" loading="lazy" alt="o">
+			</div>	
+		
+			<div class="swiper-slide">
+				<div class="slider44">
+				</div>
+				<img src="cosm.jpg" loading="lazy" alt="o">
+			</div>							
+		</div>
+	</div>
+</section>
+
+
+</div>
+
+ <script src="swiper-bundle.js"></script>
 <script>
-
+//<img src="cosm.jpg">
+const swiper5 = new Swiper('.slider5', {// 
+  loop: true,
+});	
 </script>   
 </body>
 </html>
