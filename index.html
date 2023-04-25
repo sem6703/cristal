@@ -10,11 +10,14 @@
   
 <!-- <link rel="shortcut icon" href="img/my.ico"> -->
 <!-- swiper -->
+
+<link rel="stylesheet" href="sw/swiper-bundle.min.css" /> 
+
+<!-- <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> 
-<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<!-- -->
+-->
 
 
 	<title>Обучение маникюру, курсы маникюра в Тольятти. Cristal Studio.</title>
@@ -393,7 +396,7 @@ margin-left:35px;
 .spoy1_4{align-self: flex-end;}
 /******************************/
 
-.swiper-slide img {width:419px;}/* это красной нитью проходит через все слайдеры*/
+/*.swiper-slide img {width:419px;} это красной нитью проходит через все слайдеры и является причиной краша всей верстки*/
 
 .slider40{
 	margin:0 auto;
@@ -439,7 +442,7 @@ display: none;
 .slider52{padding:20px 0 50px;text-align: center;width: 444px;border:2px solid red;}
 
 /******************************/
-.swiper-container {
+.s0wiper-container {/* виновник пиздеца */
   width: 600px;
   height: 568px;
 }  
@@ -586,9 +589,74 @@ border-left:0.5px solid purple;
 @-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%{-webkit-transform:translateX(0px);transform:translateX(0px)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}100%{-webkit-transform:translateX(0px);transform:translateX(0px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%{transform:translateX(0px)}50%{transform:translateX(80px)}100%{transform:translateX(0px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}	
 /**************/
 
+#ii{
+margin: 0 auto; 
+padding: 24% 10px 20px;
+w0idth:70%; max-width: 1080px;
+	background:url(cris/apr4.jpg);
+	background-position: top center;
+	background-size: cover;
+	b0ackground-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: local;
+
+text-align: center;
+overflow: hidden;
+color: white;
+a0spect-ratio:72/99;
+}
+
+.slider6{color:black;overflow:hidden;}
+.slider6 img{max-width:100%;}
+/**************/
+
+#iii{
+margin: 0 auto; 
+padding: 24% 10px 20px;
+w0idth:70%; max-width: 1080px;
+	background:url(cris/apr5.jpg);
+	background-position: top center;
+	background-size: cover;
+	b0ackground-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: local;
+
+text-align: center;
+overflow: hidden;
+color: white;
+a0spect-ratio:72/99;
+}
+
+.slider7{overflow:hidden;}
+.slider7 video{max-width:100%;}
+
+/**************/
+
+#iiii{
+margin: 0 auto; 
+padding: 24% 10px 20px;
+w0idth:70%; max-width: 1080px;
+	background:url(cris/apr5.jpg);
+	background-position: top center;
+	b0ackground-size: cover;
+	background-size: 100% auto;
+	background-repeat: repeat-y;
+	background-attachment: local;
+
+text-align: center;
+overflow: hidden;
+color: white;
+a0spect-ratio:72/99;
+}
+
+.slider8{overflow:hidden;}
+.slider8 video{max-width:100%;}
+
+@media screen and (max-width: 420px) {
 
 
 
+}
   </style>  
 </head>
 <body>
@@ -606,35 +674,10 @@ border-left:0.5px solid purple;
   <div class="snowflake">  ❄  </div>
 </div>
 - -->
-<section style="
-margin:0 auto;
-padding: 200px 10px;
-width:100%;max-width:720px;aspect-ratio:72/128;
-background:url(cris/apr4.jpg);
-	background-position: top center;
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-attachment: local;
-overflow:hidden;	
-">
-	<div class="swiper-container sw" style="text-align:center;">
-		<div class="swiper-wrapper" style="margin:auto;
-		max-width:100%;overflow:hidden;background:purple;">
-	
-			<div class="swiper-slide">
-				<div class="slider44">Титов
-				</div>
-				<img src="img/pic1.webp" loading="lazy" alt="o" style="max-width:100%;">
-			</div>	
-			<div class="swiper-slide">
-				<div class="slider44">Титов
-				</div>
-				<img src="img/pic2.webp" loading="lazy" alt="o" style="max-width:100%;">
-			</div>				
-			
-		</div>
-	</div>
-</section>
+
+
+
+
 
 
 
@@ -1056,67 +1099,42 @@ overflow:hidden;
 </section>
 
 
-<section style="text-align:center;">
-<div style="margin: 0 auto;display:inline-block;padding:0 0 44px 0;background: #af2cbf; width: fit-content;">
-<section class="slider40">
 
-	<div class="swiper-container slider43js">
-		<div class="swiper-wrapper" style="overflow: hidden;b0ackground: gold;">
-			<div class="swiper-slide" style="max-width:100%;color:black;">
-				<div class="slider44">
-				Работа выпускницы курса<br> 
-				Сверхскорость
-				</div>
-				<img class="slider45" src="img/pic1.webp" loading="lazy" alt="o">
-			</div>
-			<div class="swiper-slide" style="max-width:100%;color:black">
-				<div class="slider44">Работа выпускницы<br> 
-				базового курса
-				</div>
-				<img class="slider45" src="img/pic2.webp" loading="lazy" alt="o">
-			</div>
-			<div class="swiper-slide" style="max-width:100%;color:black">
-				<div class="slider44">
-				</div>
-				<img class="slider45" src="img/pic3.webp" loading="lazy" alt="o">
-			</div>
 
+<section id=ii>
+	<div class="swiper-container slider6"><!-- hook  -->
+		<div class="swiper-wrapper">				
+			<div class="swiper-slide"><div>Работа выпускницы курса<br> Сверхскорость</div><img src="img/pic1.webp" loading="lazy" alt="o"></div>
+			<div class="swiper-slide"><div>Работа выпускницы<br> базового курса</div><img src="img/pic2.webp" loading="lazy" alt="o"></div>
+			<div class="swiper-slide"><div><br>&nbsp;<br></div><img src="img/pic3.webp" loading="lazy" alt="o"></div>
+			<div class="swiper-slide"><div><br>&nbsp;<br></div><img src="img/pic4.webp" loading="lazy" alt="o"></div>
+			<div class="swiper-slide"><div><br>&nbsp;<br></div><img src="img/pic5.webp" loading="lazy" alt="o"></div>
+			<div class="swiper-slide"><div>Работа выпускницы<br> базового курса</div><img src="img/pic6.webp" loading="lazy" alt="o"></div>		
+			<div class="swiper-slide"><div><br>&nbsp;<br></div><img src="img/pic7.webp" loading="lazy" alt="o"></div>
+			<div class="swiper-slide"><div><br>&nbsp;<br></div><img src="img/pic8.webp" loading="lazy" alt="o"></div>
+			<div class="swiper-slide"><div><br>&nbsp;<br></div><img src="img/pic9.webp" loading="lazy" alt="o"></div>											
 		</div>
 	</div>
-
-</section>
-</div>
 </section>
 
 
-
-<!-- видео -->
-<section class="slider50" style="margin:0 auto;
-padding: 170px 1px 1px 1px;
-max-width: 720px;aspect-ratio:72/128;
-min-height: 765px;max-height: 800px;
-	background-image: url(cris/apr5.jpg);
-	background-position: top center;
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-attachment: local;
-display: none;
-">
-	<div class="swiper-container slider51">
-		<div class="swiper-wrapper slider52">
+<section id=iii>
+	<div class="swiper-container slider7"><!-- hook  -->
+		<div class="swiper-wrapper">								
 			<div class="swiper-slide">
-				<video width="280" controls poster="./vidos/p10.webp" preload="none">
+				<!-- video width="100%" controls poster="./vidos/p10.webp" preload="none" -->
+				<video width="280" controls poster="./vidos/p10.webp" preload="none">				
 					<source src="./vidos/vid10.mp4" type="video/mp4">
-					Тег video не поддерживается вашим браузером.
+					Тег video не поддерживается вашим браузером.<!--     -->
 				</video>			
 			</div>
 			<div class="swiper-slide">
-				<video width="280" controls poster="./vidos/p11.webp" preload="none">
+				<!-- video width="100%" controls poster="./vidos/p11.webp" preload="none" -->
+				<video width="280" controls poster="./vidos/p11.webp" preload="none">				
 					 <source src="./vidos/vid11.mp4" type="video/mp4">
-					 Тег video не поддерживается вашим браузером.
+					 Тег video не поддерживается вашим браузером.<!--     -->
 				</video>			
-			</div>
-		
+			</div>	
 			<div class="swiper-slide">
 				<video width="280" controls poster="./vidos/p12.webp" preload="none">
 					 <source src="./vidos/vid12.mp4" type="video/mp4">
@@ -1153,73 +1171,15 @@ display: none;
 					<source src="./vidos/vid17.mp4" type="video/mp4">
 					Тег video не поддерживается вашим браузером.
 				</video>			
-			</div>							
-		</div>
-	</div>
-</section>
-
-
-<section class="container swip2">
-<h2 class="swip2__1" style="color: black;">Видеоотзывы</h2>
-	<div class="swiper-container swy2">
-		<div class="swiper-wrapper">
-			<div class="swiper-slide">
-				<video width="280" controls poster="./vidos/p10.webp" preload="none">
-					<source src="./vidos/vid10.mp4" type="video/mp4">
-					Тег video не поддерживается вашим браузером.
-				</video>			
-			</div>
-			<div class="swiper-slide">
-				<video width="280" controls poster="./vidos/p11.webp" preload="none">
-					 <source src="./vidos/vid11.mp4" type="video/mp4">
-					 Тег video не поддерживается вашим браузером.
-				</video>			
-			</div>
-		
-			<div class="swiper-slide">
-				<video width="280" controls poster="./vidos/p12.webp" preload="none">
-					 <source src="./vidos/vid12.mp4" type="video/mp4">
-					 Тег video не поддерживается вашим браузером.
-				</video>			
-			</div>
-			<div class="swiper-slide">
-				<video width="280" controls poster="./vidos/p13.webp" preload="none">
-					 <source src="./vidos/vid13.mp4" type="video/mp4">
-					 Тег video не поддерживается вашим браузером.
-				</video>			
-			</div>		
-			<div class="swiper-slide">
-				<video width="280" controls poster="./vidos/p14.webp" preload="none">
-					 <source src="./vidos/vid14.mp4" type="video/mp4">
-					 Тег video не поддерживается вашим браузером.
-				</video>			
-			</div>		
-			<div class="swiper-slide">
-				<video width="280" controls poster="./vidos/p15.webp" preload="none">
-					<source src="./vidos/vid15.mp4" type="video/mp4">
-					Тег video не поддерживается вашим браузером.
-				</video>			
-			</div>		
-			<div class="swiper-slide">
-				<video width="280" controls poster="./vidos/p16.webp" preload="none">
-					<source src="./vidos/vid16.mp4" type="video/mp4">
-					Тег video не поддерживается вашим браузером.
-				</video>			
 			</div>			
-		
-			<div class="swiper-slide">
-				<video width="280" controls poster="./vidos/p17.webp" preload="none">
-					<source src="./vidos/vid17.mp4" type="video/mp4">
-					Тег video не поддерживается вашим браузером.
-				</video>			
-			</div>							
+			
 		</div>
 	</div>
 </section>
 
 
-<section class="container slider3"> 
-	<div class="swiper-container swy3">
+<section id=iiii>
+	<div class="swiper-container slider8"><!-- hook  -->
 		<div class="swiper-wrapper">
 			<div class="swiper-slide">
 				<img class="o1img" src="img/o1.webp" alt="o">
@@ -1256,10 +1216,12 @@ display: none;
 			</div>
 			<div class="swiper-slide">
 				<img class="o1img" src="img/o12.webp" alt="o">
-			</div>		
+			</div>				
 		</div>
 	</div>
 </section>
+
+
 
 
 
@@ -1311,6 +1273,7 @@ display: none;
 </footer>
 
 <!-- формы -->
+<script src="sw/swiper-bundle.min.js"></script>
 <script>
 
 /************************************/
@@ -1411,10 +1374,26 @@ const swiper50 = new Swiper('.slider53', {// видео
 });	
 
 //*********
-const sw = new Swiper('.sw', {// 
+const sw2 = new Swiper('.sw', {// 
   loop: true,
   spaceBetween: 6,
 });	
+
+const swiper6 = new Swiper('.slider6', {// 
+  loop: true,
+  spaceBetween: 6,
+});	
+
+const swiper7 = new Swiper('.slider7', {// 
+  loop: true,
+  spaceBetween: 6,
+});
+
+const swiper8 = new Swiper('.slider8', {// 
+  loop: true,
+  spaceBetween: 8,
+});
+
 </script>   
 </body>
 </html>
