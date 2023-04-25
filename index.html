@@ -398,7 +398,7 @@ margin-left:35px;
 .slider40{
 	margin:0 auto;
 	padding: 170px 1px 50px 1px;
-	max-width: 720px;a0spect-ratio:72/128;
+	max-width: 720px;aspect-ratio:72/128;
 	m0in-height: 765px;m0ax-height: 800px;
 		background-image: url(cris/apr4.jpg);
 		background-position: top center;
@@ -410,12 +410,14 @@ margin-left:35px;
 .slider41{o0verflow: hidden;}
 .slider43js {
   margin: auto;
+  padding: 10px;
   width: 485px;
   height: 568px;
   overflow: hidden;
   p0adding-left:33px;  
 }  
 .slider44{padding-left:2rem;}
+.slider45{max-width:100%;}
 @media screen and (max-width: 720px) {
 .slider40{
 padding: 25% 1px 50px 1px;
@@ -428,6 +430,7 @@ aspect-ratio:auto;}
 
 
 .slider53 {
+display: none;
   width: 600px;
   height: 568px;
 }  
@@ -603,6 +606,37 @@ border-left:0.5px solid purple;
   <div class="snowflake">  ❄  </div>
 </div>
 - -->
+<section style="
+margin:0 auto;
+padding: 200px 10px;
+width:100%;max-width:720px;aspect-ratio:72/128;
+background:url(cris/apr4.jpg);
+	background-position: top center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: local;
+overflow:hidden;	
+">
+	<div class="swiper-container sw" style="text-align:center;">
+		<div class="swiper-wrapper" style="margin:auto;
+		max-width:100%;overflow:hidden;background:purple;">
+	
+			<div class="swiper-slide">
+				<div class="slider44">Титов
+				</div>
+				<img src="img/pic1.webp" loading="lazy" alt="o" style="max-width:100%;">
+			</div>	
+			<div class="swiper-slide">
+				<div class="slider44">Титов
+				</div>
+				<img src="img/pic2.webp" loading="lazy" alt="o" style="max-width:100%;">
+			</div>				
+			
+		</div>
+	</div>
+</section>
+
+
 
 <header class="hat">
 	<div class="april">
@@ -1022,61 +1056,31 @@ border-left:0.5px solid purple;
 </section>
 
 <section class="slider40">
-<div class="slider41">
-	<div class="slider43js">
-		<div class="swiper-wrapper" style="b0ackground: gold;">
-			<div class="swiper-slide" style="color:black">
+
+	<div class="swiper-container slider43js">
+		<div class="swiper-wrapper" style="overflow: hidden;b0ackground: gold;">
+			<div class="swiper-slide" style="max-width:100%;color:black;">
 				<div class="slider44">
 				Работа выпускницы курса<br> 
 				Сверхскорость
 				</div>
-				<img src="img/pic1.webp" loading="lazy" alt="o">
+				<img class="slider45" src="img/pic1.webp" loading="lazy" alt="o">
 			</div>
-			<div class="swiper-slide" style="color:black">
+			<div class="swiper-slide" style="max-width:100%;color:black">
 				<div class="slider44">Работа выпускницы<br> 
 				базового курса
 				</div>
-				<img src="img/pic2.webp" loading="lazy" alt="o">
+				<img class="slider45" src="img/pic2.webp" loading="lazy" alt="o">
 			</div>
-			<div class="swiper-slide">
+			<div class="swiper-slide" style="max-width:100%;color:black">
 				<div class="slider44">
 				</div>
-				<img src="img/pic3.webp" loading="lazy" alt="o">
+				<img class="slider45" src="img/pic3.webp" loading="lazy" alt="o">
 			</div>
-			<div class="swiper-slide">
-				<div class="slider44">
-				</div>
-				<img src="img/pic4.webp" loading="lazy" alt="o">
-			</div>
-			<div class="swiper-slide">
-				<div class="slider44">
-				</div>
-				<img src="img/pic5.webp" loading="lazy" alt="o">
-			</div>
-			<div class="swiper-slide" style="color:black">
-				<div class="slider44">Работа выпускницы<br> 
-				базового курса
-				</div>
-				<img src="img/pic6.webp" loading="lazy" alt="o">
-			</div>		
-			<div class="swiper-slide">
-				<div class="slider44">
-				</div>
-				<img src="img/pic7.webp" loading="lazy" alt="o">
-			</div>
-			<div class="swiper-slide">
-				<div class="slider44">
-				</div>
-				<img src="img/pic8.webp" loading="lazy" alt="o">
-			</div>
-			<div class="swiper-slide">
-				<div class="slider44">
-				</div>
-				<img src="img/pic9.webp" loading="lazy" alt="o">
-			</div>		
+
 		</div>
 	</div>
-</div>	
+
 </section>
 
 
@@ -1091,7 +1095,7 @@ min-height: 765px;max-height: 800px;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-attachment: local;
-
+display: none;
 ">
 	<div class="swiper-container slider51">
 		<div class="swiper-wrapper slider52">
@@ -1394,12 +1398,18 @@ const swiper3 = new Swiper('.swy3', {
 
 const swiper40 = new Swiper('.slider43js', {// фото
   loop: true,
+  spaceBetween: 3,
 });	
 
 const swiper50 = new Swiper('.slider53', {// видео
   loop: true,
 });	
 
+//*********
+const sw = new Swiper('.sw', {// 
+  loop: true,
+  spaceBetween: 6,
+});	
 </script>   
 </body>
 </html>
