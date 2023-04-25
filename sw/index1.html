@@ -7,21 +7,23 @@
   <link rel="icon" type="image/x-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAOGSURBVDhPJdJ9TNVVGMDxw+Wde3kRdAaasYFtWoQjnWGb4gAHm6CoTSWJtLRZKFlpN3IE4y0TVOLu8uKQeyUYhLw4UEQkr0HCeBsxSSMBB0hCtdC8jZj67UH+ODvP7+yczznP8/xUSlkbwatWsszLFR93BzYE+rDzQDRvpyYQZ/iKOPNpYi+Y2H3dQnzfEAdv/867faNsycvBf6kbam9WBSFLdNjYKXRKEfWqF4lHd/FxfgqflKRx5LtvSGwo4fDPPSSP3MMwPsnpv2c5+NsQgd5aVOArqwnxckEJsFzGntXepCfHk3E+i/Ti46SXp5Px0wXSJocxPvqLGquVstmnfH6jlvVuGpTO0YlVrjqUo2KRvGCdqw36qCAMBccwmJLIzT9E7qkEMs98QVbecXKqizD80sOhT7exSSuAjb0GPyfH50Ck9wLCX3Bl8yJb0mICKKn4ksKGk+Slx5IcvpK0t8IwtfXQBOzbG0uokw1KOWh4UzufQpCblsXOtrKoeF3G+ZoMOmVzUVs9Oz0VAbJ2OCwMQ+ZpPgwOYIONkheIErHY4znga2dLqP9Clkm8VjZX/VBEtwDm/layIvz4en8ENb29FDddQr/xJTbKPqV0Grxd5m8N1SoS31hKsMTvL1HU3u/i5tNZKv+dwmgpo7CzmnLrGDcErRtu5T1puVJudlJJW9zl0Acr3Ihf4cI6ibP3hVD+aJi+mcdceTiO+XYzpXctXPnzVx4+e8ITQaos1XOAPcrDjoVyaP+LzkS7KzZJbpXVJ2jAiuW/aWoH6vn+ZikXJ+/Qa50W4BkzAvRYpwRwnQc8BXjHS0OMAJESm08doLi+iEvN5VRWJHGx7iSNU2Pcsj7m7sw/jM5YaZ++L4BW8neXfjrIT+TlwNFwfyKlFvrQ5RibTRQ0mym8WkzpjxU0jN+j68EE3ROjDPzxgJaJYQFcpJI66afMc5Xf8rIbMX5aMnYHc9aYRI6liuyBDqoG+2kbHeH60B06Rga5NTZC4+CAAM4CzCFyq48Aa+R7m4c9H3nr0Psu4ExcFKnF2Rg7W6nqbqeiq526vk5a+vswdXYIIH+gcppHXKSvr0m8Vtp6ZH0QydGhpOr1JBiz+ezqZZKbGkiRkXmtkeyWaxy7XC+AvRyW/OcgW5n95AUBnhoi1/iyfUcIW5MS2Jx7gq3nCthuPsuu0nPsKTOzo9REWP63/A9LfT5MoLhg6gAAAABJRU5ErkJggg==">
   <title>Doc</title>
   <style>
+*:not(hr), *::after, *::before {box-sizing: border-box;margin:0;padding:0;border:0}ul {list-style-type: none}  
+  
 #i{margin: 0 auto; padding: 33px 10px 20px;width:70%;background: linear-gradient(rgba(0,0,0,0.9), blue); 
 text-align: center;
-overflow: hidden;
+overflow: hidden; 
 color: white;
 }
 #ii{
 margin: 0 auto; 
-padding: 24% 10px 20px;width:70%;
-b0ackground: linear-gradient(rgba(0,0,0,0.9), blue); 
+padding: 24% 10px 20px;
+width:70%; max-width: 1080px;
 	background:url(cris/apr4.jpg);
-background-position: top center;
-background-size: cover;
-background-size: 100% 100%;
-background-repeat: no-repeat;
-background-attachment: local;
+	background-position: top center;
+	background-size: cover;
+	b0ackground-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: local;
 
 text-align: center;
 overflow: hidden;
@@ -29,7 +31,8 @@ color: white;
 a0spect-ratio:72/99;
 }
 
-
+.slider6{overflow:hidden;}
+.slider6 img{max-width:100%;}
 
 /**/
 /* FONT_START */
@@ -729,29 +732,24 @@ Uncaught TypeError: Failed to execute 'getComputedStyle' on 'Window': parameter 
 	враппер элемент потерялся/ потому что заарканил не sw-container элемент а другой
 </p>
 
-<div id=ii>
-<!-- <section class="" style="">   </section>  -->
-	<div class="swiper-container slider6" style="overflow:hidden;"><!-- hook slider52 -->
-		<div class="swiper-wrapper ">	
-			
+<section id=ii>
+	<div class="swiper-container slider6" style="background:violet"><!-- hook  -->
+		<div class="swiper-wrapper">				
 			<div class="swiper-slide">
-				<div class="slider44">Титов
+				<div class="slider60">Титов
 				</div>
-				<img src="cris/pic1.webp" loading="lazy" alt="o" style="max-width:100%;">
+				<img src="cris/pic1.webp" loading="lazy" alt="o">
 			</div>	
 		
 			<div class="swiper-slide">
-				<div class="slider44">Джанибеков
+				<div class="slider60">Джанибеков
 				</div>
-				<img src="cris/pic1.webp" loading="lazy" alt="o" style="max-width:100%;">
+				<img src="cris/pic1.webp" loading="lazy" alt="o">
 			</div>	
 					
 		</div>
 	</div>
-
-
-
-</div>
+</section>
 
 <article>
 <h1>gitk</h1>
@@ -823,6 +821,8 @@ const swiper5 = new Swiper('.slider51', {//
 const swiper6 = new Swiper('.slider6', {// 
   loop: true,
   spaceBetween: 6,
-});	</script>   
+});	
+
+</script>   
 </body>
 </html>
