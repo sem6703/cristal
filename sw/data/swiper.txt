@@ -1,0 +1,10 @@
+Стрелки
+navigation: {nextEl:'sw_btn_next',prevEl:'sw_btn_prev'}
+Пагинация
+pagination: {el:'sw_btn_next_pagination',clickable:true,dynamicBullets:true,}
+Фракция
+type: 'fraction',
+Прогрессбар
+type: 'progressbar',
+скролл
+Scrollbar:{el:'sw_scrollbar',draggable:true,}
