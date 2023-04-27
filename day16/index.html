@@ -99,7 +99,22 @@ h1{
 	justify-content: flex-end;
 	align-items: center;
 	padding-bottom: 1%;
+	
+	display: none;
 	}	
+/**** topic *****/	
+.topic{
+	margin: 0 auto;
+	max-width: 720px; aspect-ratio:905/1280;
+	background-image: url(cris/apr7.jpg);
+	background-position: top center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: local;
+
+
+}	
+	
 /******* кнопка запишись *********/	
 .april{/* обертка кнопки запишись */
 	display: block;
@@ -570,6 +585,24 @@ a0spect-ratio:72/99;
 }
 
 /* *********************** */
+.we{margin:0 3px;width:130px;aspect-ratio:1;
+text-align: center;
+background:linear-gradient(#e40981, #000);
+background:linear-gradient(#e40981, violet);
+overflow: hidden;
+position: relative;
+border-radius:13%;}
+.we1{margin:0;font-size:99px; l0ine-height:1px;}
+.we2{margin:0;position: absolute;bottom:0;left:50%; transform: translate(-50%,0);
+
+font-size:25px;line-height:30px;}
+
+@media screen and (max-width: 440px) {
+.we{width:110px;}
+.we1{font-size:52px;l0ine-height:86px;}
+.we2{font-size:20px;line-height:30px;}
+}
+
   </style>  
 </head>
 <body>
@@ -585,8 +618,60 @@ a0spect-ratio:72/99;
   <div class="snowflake">  ❅  </div>
   <div class="snowflake">  ❆  </div>
   <div class="snowflake">  ❄  </div>
-</div>
-- -->
+</div>#e40981;
+- --> 
+<section class="kurs">
+	<button class="kursbtn1"
+	onclick="window.location='https://api.whatsapp.com/send?phone=79179658117'"
+	>
+	</button>
+	<button class="kursbtn2"
+	onclick="window.location='https://api.whatsapp.com/send?phone=79179658117'"
+	>
+	</button>	
+</section>
+
+
+
+<section style="display: flex;justify-content: center;font-family:r8; color:white">
+	<div class="we">
+		<span class=" fanh we1"></span>
+		<span class="we2">часов</span>
+	</div>
+
+	<div class="we">
+		<span class=" fanm we1"></span>
+		<span class="we2">минут</span>
+	</div>
+
+	<div class="we">
+		<span class=" fans we1"></span>
+		<span class="we2">секунд</span>
+	</div>
+</section>
+
+
+	<div id="act">
+		<h3 id="soon">До конца акции осталось</h3>	
+		<div id="tablo" style="display: none;">
+			<button class="ring">
+				<span class="fanh">6</span>
+				<h3 id="xhh">час</h3>
+			</button>
+			<button class="ring">
+				<span class="fanm">00</span>
+				<h3 id="xmm">минут</h3>
+			</button>				
+			<button class="ring">
+				<span class="fans">00</span>
+				<h3 id="xss">секунд</h3>
+			</button>										
+		</div>
+	</div>	<!-- act -->
+
+
+
+
 <header class="hat">
 	<div class="april">
 		<button class="mart"
@@ -599,24 +684,11 @@ a0spect-ratio:72/99;
 		</button>	
 	</div>
 	
-	<div id="act">
-		<h3 id="soon">До конца акции осталось</h3>	
-		<div id="tablo">
-			<button class="ring">
-				<span id="fanh">6</span>
-				<h3 id="xhh">час</h3>
-			</button>
-			<button class="ring">
-				<span id="fanm">00</span>
-				<h3 id="xmm">минут</h3>
-			</button>				
-			<button class="ring">
-				<span id="fans">00</span>
-				<h3 id="xss">секунд</h3>
-			</button>										
-		</div>
-	</div>	<!-- act -->
+
 </header>
+
+
+
 
 
 
@@ -978,16 +1050,7 @@ a0spect-ratio:72/99;
 	</button>
 </section>
 
-<section class="kurs">
-	<button class="kursbtn1"
-	onclick="window.location='https://api.whatsapp.com/send?phone=79179658117'"
-	>
-	</button>
-	<button class="kursbtn2"
-	onclick="window.location='https://api.whatsapp.com/send?phone=79179658117'"
-	>
-	</button>	
-</section>
+
 
 <!--  begin slider  -->
 
@@ -1121,6 +1184,10 @@ a0spect-ratio:72/99;
 </section>
 
 
+<header class="topic">
+</header>
+
+
 <footer class="wide ft">
 	<div class="container ft_feet">
 		<div class="ft_feet_1">	
@@ -1191,6 +1258,9 @@ const sss=x=>
 	:'секунд';	
 
 function present(){
+	const fanht=[...document.querySelectorAll('.fanh')];
+	const fanmt=[...document.querySelectorAll('.fanm')];
+	const fanst=[...document.querySelectorAll('.fans')];
 	now = new Date();
 	const t = Math.ceil(
 		Math.abs(now.getTime()-
@@ -1200,13 +1270,13 @@ function present(){
 		goodtime.getTime())/(1000));		
 	if (t<360){// шесть часов
 	    if (timernok){timernok=false;console.log('ok')}
-			fanh.innerText=(360-t)/60|0;
-			fanm.innerText=((360-t)%60)
+			fanht.forEach(i=>i.innerText=(360-t)/60|0);
+			fanmt.forEach(i=>i.innerText=((360-t)%60)
 				.toString()
-				.padStart(2, '0');
-			fans.innerText=((60*360-k)%60)
+				.padStart(2, '0'));
+			fanst.forEach(i=>i.innerText=((60*360-k)%60)
 				.toString()
-				.padStart(2, '0');			
+				.padStart(2, '0'));			
 				
 			xhh.innerText=hhh((360-t)/60|0);
 			xmm.innerText=mmm((360-t)%60);
@@ -1217,9 +1287,9 @@ function present(){
 		{
 			localStorage.setItem(timername,now);
 			goodtime=now;	
-			fanh.innerText='6';
-			fanm.innerText='00';
-			fans.innerText='00';			
+			fanht.forEach(i=>i.innerText='6');
+			fanmt.forEach(i=>i.innerText='00');
+			fanst.forEach(i=>iinnerText='00');			
 				
 			xhh.innerText='часов';
 			xmm.innerText='минут';

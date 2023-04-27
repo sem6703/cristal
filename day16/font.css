@@ -19,4 +19,9 @@
 	  font-weight: 700;
 	  font-style: normal; }	
 
-
+	@font-face {
+	  font-family: 'r8';
+	  src: local("Hell"), local("Hell"), 
+	  url("font/hell.ttf") format("truetype");
+	  font-weight: 700;
+	  font-style: normal; }	
